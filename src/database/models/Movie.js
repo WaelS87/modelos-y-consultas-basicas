@@ -42,7 +42,7 @@ module.exports = (sequelize, dataTypes) => {
         timestamps : true,
         underscored: true
     }
-    const Movie = sequelize.defin(alias, cols, config);
+    const Movie = sequelize.define(alias, cols, config);
 
     return Movie;
 
